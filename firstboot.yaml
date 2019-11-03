@@ -1,0 +1,8 @@
+resource_registry:
+  OS::TripleO::NodeUserData: /home/stack/os-net-config-mappings.yaml
+    
+parameter_defaults:
+  NetConfigDataLookup:
+    nodegroup1:
+      dmiString: "system-product-name"
+      id: "SYS-1029P-WTR"
